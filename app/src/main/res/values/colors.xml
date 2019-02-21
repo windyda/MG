@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00907B</color>
+    <color name="statusBarColor">#008975</color>
+    <color name="colorPrimaryBG">#F5F6F7</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="text_content">#666666</color>
+    <color name="black">#000000</color>
+    <color name="aliceBlue">#F0F8FF</color>
+    <color name="milkyWhite">#F9F9F9</color>
+</resources>

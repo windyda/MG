@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/half"
+    android:orientation="vertical"
+    android:paddingStart="70dp"
+    android:paddingEnd="70dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/login_portrait_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/login_account_txt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="85dp"
+        android:hint="请输入账户名或密码"
+        android:paddingStart="5dp"
+        android:textColor="@color/text_content"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/login_password_txt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入登录密码"
+        android:inputType="textPassword"
+        android:paddingStart="5dp"
+        android:textColor="@color/text_content"
+        android:textSize="17sp" />
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="30dp">-->
+
+    <!--&lt;!&ndash;<CheckBox&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/login_keepCode_chk"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:text="保存密码"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:textColor="@color/text_content" />&ndash;&gt;-->
+
+    <!--<Button-->
+    <!--android:id="@+id/login_forget_psw_btn"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:background="@color/transparent"-->
+    <!--android:text="忘记密码"-->
+    <!--android:textColor="@color/colorPrimary" />-->
+    <!--</RelativeLayout>-->
+
+    <Button
+        android:id="@+id/login_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/item_round_corner_primary_color"
+        android:text="登录"
+        android:textColor="@color/text_content"
+        android:textSize="19sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/login_register_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/transparent"
+            android:text="注册"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/login_forget_psw_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/login_register_btn"
+            android:layout_centerHorizontal="true"
+            android:background="@color/transparent"
+            android:text="忘记密码"
+            android:textColor="@color/colorPrimary" />
+    </RelativeLayout>
+</LinearLayout>

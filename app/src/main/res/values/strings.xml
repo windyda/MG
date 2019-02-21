@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">mygarden</string>
+
+    <string name="open">mygarden</string>
+    <string name="close">mygarden</string>
+
+    <string name="app_server">http://47.101.31.180:8080/ssm/</string>
+
+    <string name="note_title_hint">添加标题</string>
+    <string name="say_it">say it!</string>
+    <string name="max_note_record">5</string> <!--一个文件存储的最大笔记数量-->
+    <string name="external_folder">MGNote</string>
+    <string name="note_dividing_start">=== note start ===</string>
+    <string name="note_dividing_end">=== note end ===</string>
+    <string name="item_space">7</string>
+    <string name="password">  密    码</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="new_note">新笔记</string>
+</resources>

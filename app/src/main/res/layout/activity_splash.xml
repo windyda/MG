@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:text="请输入登录密码" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/splash_psw_text"
+                android:layout_width="140dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bottom_line_shape"
+                android:gravity="center_vertical"
+                android:maxLength="12"
+                android:paddingTop="7dp"
+                android:textAlignment="center"
+                android:textSize="27sp" />
+
+            <ImageView
+                android:id="@+id/splash_clear"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_toEndOf="@+id/splash_psw_text"
+                android:src="@drawable/add" />
+        </RelativeLayout>
+
+        <GridView
+            android:id="@+id/splash_keyboard_grid"
+            android:layout_width="240dp"
+            android:layout_height="320dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:columnWidth="80dp"
+            android:numColumns="auto_fit"
+            android:scrollbars="none">
+
+        </GridView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/splash_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/transparent"
+        android:text="@string/cancel"
+        android:textColor="@color/text_content" />
+
+    <Button
+        android:id="@+id/splash_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/transparent"
+        android:text="@string/new_note"
+        android:textColor="@color/text_content" />
+
+</RelativeLayout>
